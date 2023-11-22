@@ -22,7 +22,7 @@ print('parameterised named constructor $x');
 
 void main(){
   //var obj1 =MyClass();
-  var obj2 =MyClass('hello');
-  var obj3 =MyClass.a();
-  var obj4 =MyClass.b(1000);
+  // var obj2 =MyClass("hello");
+  // var obj3 =MyClass.a();
+  // var obj4 =MyClass.b(1000);
 }

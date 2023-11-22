@@ -19,5 +19,5 @@ class B extends A{
   }
 }
 void main(){
-  B obj = B();
+  //B obj = B();
 }

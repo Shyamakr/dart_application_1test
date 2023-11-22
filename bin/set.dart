@@ -1,6 +1,6 @@
 void main(){
 Set s={};
-Set s1={};
+//Set s1={};
 
  Set<String> fruits={"apple","mango","orange"};
  print(fruits);
