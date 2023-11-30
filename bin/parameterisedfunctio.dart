@@ -10,30 +10,36 @@ void fun1(int a,[int?b , int? c]){
 //optional named parameterised function (with null aware)
   
   void fun2(String name ,{int?age, int?phone, String? email}){
+
     print("............func2.............");
-    print('name   = $name');
-    print('age   = $age');
-    print('phone   = $phone');
-    print('email   = $email');
+
+    print('name   =$name');
+    print('age    =$age');
+    print('phone  =$phone');
+    print('email  =$email');
   }
 
   
   void fun3(String name ,{int?age, int?phone, String? email}){
+
     print("............func3.............");
-    print('name   = $name');
-    print('age   = $age');
-    print('phone   = $phone');
-    print('email   = $email');
+
+    print('name   =$name');
+    print('age    =$age');
+    print('phone  =$phone');
+    print('email  =$email');
   }
 
 //optional named parameterised function with default value
-void fun4(String st name ,{ String ceo="rahul",String cmname = "luminar", required int phone, String location ="kakkanad" }){
+void fun4(String stname ,{ String ceo="rahul",String cname = "luminar", required int phone, String location ="kakkanad"}){
+ 
   print("................fun4..............");
-  print("student name = $stname");
-  print("companybname   = $cname");
-  print("ceo   = $ceo");
-  print('phone   = $phone');
-  print('location  = $location');
+
+  print("student name =$stname");
+  print("companybname =$cname");
+  print("ceo          =$ceo");
+  print('phone        =$phone');
+  print('location     =$location');
 }
 
   void main(){
@@ -41,7 +47,7 @@ void fun4(String st name ,{ String ceo="rahul",String cmname = "luminar", requir
     fun2("hari", age:12);
     fun2("xyz",email:'xyz@gmail.com');
     fun3("x",phone:1234789,email:'');
-    fun4()
+    fun4("shyama", phone: 12347889098);
 
   }
 

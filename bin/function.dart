@@ -31,9 +31,12 @@ void func5() =>print("hello");
 // lambda function with return type
 int func6(int x)=>x;
 var list =[1,2,3,4];
-print('list');
+
+//print('list');
+
 //anonymous function
-list.forEach((element) { });
+
+// list.forEach((element) { });
 
 
 void main(){

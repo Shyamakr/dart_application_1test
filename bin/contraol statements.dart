@@ -1,5 +1,3 @@
-
-
 void main(){
 print("hi");
 
