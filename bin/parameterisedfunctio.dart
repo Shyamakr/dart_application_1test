@@ -1,5 +1,6 @@
 //optional positional parameterised function
 //syntax    return type funcname ([parameters])
+
 void fun1(int a,[int?b , int? c]){
   
   print('a   = $a');
@@ -18,9 +19,8 @@ void fun1(int a,[int?b , int? c]){
     print('phone  =$phone');
     print('email  =$email');
   }
-
-  
-  void fun3(String name ,{int?age, int?phone, String? email}){
+ 
+   void fun3(String name ,{int?age, int?phone, String? email}){
 
     print("............func3.............");
 
@@ -31,6 +31,7 @@ void fun1(int a,[int?b , int? c]){
   }
 
 //optional named parameterised function with default value
+
 void fun4(String stname ,{ String ceo="rahul",String cname = "luminar", required int phone, String location ="kakkanad"}){
  
   print("................fun4..............");
@@ -41,7 +42,6 @@ void fun4(String stname ,{ String ceo="rahul",String cname = "luminar", required
   print('phone        =$phone');
   print('location     =$location');
 }
-
   void main(){
     fun2("anu",email:'anu@gmail.com',);
     fun2("hari", age:12);
@@ -50,16 +50,9 @@ void fun4(String stname ,{ String ceo="rahul",String cname = "luminar", required
     fun4("shyama", phone: 12347889098);
 
   }
-
-
-
-
-
-
-
-//void main(){
- // fun1(10);
- // fun1(10,20,30);
- // fun1(10,20);
- // fun1(1,,20);   it is not possible since we can not skipp parameters where we can not skip  b and assign value
-//}
+/*void main(){
+  fun1(10);
+  fun1(10,20,30);
+  fun1(10,20);
+  fun1(1,,20);   it is not possible since we can not skipp parameters where we can not skip  b and assign value
+}*/

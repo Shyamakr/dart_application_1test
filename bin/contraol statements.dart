@@ -25,7 +25,7 @@ if(Age>=18){
 
  //nested if 
   if(username == 'admin' && password == 'abcd123'){
-    print('email passwoord verficatio sucess' );
+    print('email passwoord verfication sucess' );
     if(otp ==203){
       print('otp verified ,login sucess');
     }

@@ -4,7 +4,6 @@ class A{
   void show(){
     print("$a,$b show() from class A");
   }
-
   void display(){
     print("display() from class A");
   }

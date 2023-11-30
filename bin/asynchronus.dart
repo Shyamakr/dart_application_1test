@@ -6,9 +6,9 @@ void main()async{
   int num= int.parse(stdin.readLineSync()!);
   print("wait for otp");
   //Future.delayed(Duration(seconds: 3),(){print(otp);}).then((value) => print("thank you"));// future.delayed      using then
-//   Future.delayed(Duration(seconds: 3),(){print(otp);}).then((value){                       // without using flat arrow
-//  print("otp verified");
-//   print("thank you");});
+ //Future.delayed(Duration(seconds: 3),(){print(otp);}).then((value){                       // without using flat arrow
+//print("otp verified");
+//print("thank you");});
 await Future.delayed(Duration(seconds: 3),(){print(otp);});  /// future delayed        // without then
   print("otp verified");
   print("thank you");

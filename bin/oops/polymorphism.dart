@@ -1,8 +1,8 @@
 class Father{
   String name ="Aravind";
   void details(String job , int age , int phone){
-  print("Job    : $job");
-  print("Age    : $age");
+  print("Job      : $job");
+  print("Age      : $age");
   print("Phone    : $phone");
 }
 }
@@ -13,7 +13,7 @@ class Child extends Father{
     print("Class   :$std");
     print("Age     :$age");
     print("School  :$school ");
-   // print("father name : ${super.name}");
+    print("father name : ${super.name}");
    // super.details("teacher", 40, 231478909);
 
   }
