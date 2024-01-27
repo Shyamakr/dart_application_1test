@@ -8,7 +8,7 @@ class GridView3 extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("gridview...builder...maxcrossaxis extend",),),
+      //appBar: AppBar(title: Text("gridview...builder...maxcrossaxis extend",),),
       body: GridView.builder(
         gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(maxCrossAxisExtent: 120), 
         itemBuilder: (context,index)=>Container(

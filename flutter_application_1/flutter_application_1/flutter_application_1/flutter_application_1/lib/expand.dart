@@ -44,10 +44,14 @@ class Expand1 extends StatelessWidget{
        ),
      ),
      Expanded(
-       child: ListView(
-        children:List.generate(10, (index) => Card(
-          color: Colors.amber,
-        ))),
+       child: ListView.builder(itemBuilder: (context,index)=>Card(
+        color: Colors.primaries[index%Colors.primaries.length],
+        child: Center(
+          child: Text("hiii",style: TextStyle(
+            color: Colors.amber),
+            ),
+         ),
+       )),
      )
     ],
     

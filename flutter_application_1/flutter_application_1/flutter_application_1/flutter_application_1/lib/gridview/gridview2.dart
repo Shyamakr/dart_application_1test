@@ -30,7 +30,7 @@ class Gridview2 extends StatelessWidget {
   children: List.generate(10, (index) => Container(
     decoration: BoxDecoration(
     image: DecorationImage(
-      image: AssetImage(img[index]),
+      image: AssetImage(images[index]),
     fit: BoxFit.fill), 
                  ),
                ),

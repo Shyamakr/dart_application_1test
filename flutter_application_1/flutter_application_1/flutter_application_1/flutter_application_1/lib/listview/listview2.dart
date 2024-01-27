@@ -36,7 +36,7 @@ class Listview2 extends StatelessWidget {
    @override
   Widget build(BuildContext context) {
    return Scaffold(
-    appBar: AppBar(title: Text("Listview listGenerate "),),
+   // appBar: AppBar(title: Text("Listview listGenerate "),),
     body: ListView(
      // children: List.generate(20, (index) =>Card(child: Image.asset("assets/images/bird.png",height: 49,width: 49,),))
      //children:List.generate(17, (index) => Card(child: Text(name[index]),)),

@@ -1,0 +1,45 @@
+iimport 'package:flutter/material.dart';
+void main(){
+  runApp(MaterialApp(home: LottieEx(),));
+}
+
+class LottieAni extends StatelessWidget{
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(title: Text("lottie"),),
+      //body: Lottie.network("https://lottie.host/7e36e3fd-091c-452a-bfd9-a65dfa426c51/ebniiRRTtB.json"),
+        body: Lottie.net,
+    );
+  }
+
+}
+import 'package:flutter/material.dart';
+void main(){
+  runApp(MaterialApp(home: LottieEx(),));h
+}
+
+class LottieAni extends StatelessWidget{
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(title: Text("lottie"),),
+      //body: Lottie.network("ttps://lottie.host/7e36e3fd-091c-452a-bfd9-a65dfa426c51/ebniiRRTtB.json"),
+        body: Lottie.net,
+    );
+  }
+
+}
+
+
+GridView.builder(gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2), 
+   itemBuilder: (context,index){
+    return Card(
+      child: Column(
+        mainAxisSize: MainAxisSize.min,
+        children: products.map((products)=>null). Card(
+          
+        )tolist(),
+      ),
+    )
+   }),
