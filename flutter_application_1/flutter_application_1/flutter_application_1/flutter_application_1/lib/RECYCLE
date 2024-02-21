@@ -1,45 +1,109 @@
-iimport 'package:flutter/material.dart';
-void main(){
-  runApp(MaterialApp(home: LottieEx(),));
-}
+  body: GridView.count(crossAxisCount: 4,children:List.generate(4, (index) => Container(
+    color: Colors.teal[200],
+      child: const Text('Heed not the rabble'),
+     
+    ))),
+ 
+//   children:[
+//     Container(
+//       padding: const EdgeInsets.all(8),
+//       color: Colors.teal[100],
+//       child: const Text("He'd have you all unravel at the"),
+//     ),
+//     Container(
+//       padding: const EdgeInsets.all(8),
+//       color: Colors.teal[200],
+//       child: const Text('Heed not the rabble'),
+//     ),
+//     Container(
+//       padding: const EdgeInsets.all(8),
+//       color: Colors.teal[300],
+//       child: const Text('Sound of screams but the'),
+//     ),
+//     Container(
+//       padding: const EdgeInsets.all(8),
+//       color: Colors.teal[400],
+//       child: const Text('Who scream'),
+//     ),
+//     Container(
+//       padding: const EdgeInsets.all(8),
+//       color: Colors.teal[500],
+//       child: const Text('Revolution is coming...'),
+//     ),
+//     Container(
+//       padding: const EdgeInsets.all(8),
+//       color: Colors.teal[600],
+//       child: const Text('Revolution, they...'),
+//     ),
+//   ],
+// ),
 
-class LottieAni extends StatelessWidget{
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(title: Text("lottie"),),
-      //body: Lottie.network("https://lottie.host/7e36e3fd-091c-452a-bfd9-a65dfa426c51/ebniiRRTtB.json"),
-        body: Lottie.net,
-    );
-  }
-
-}
-import 'package:flutter/material.dart';
-void main(){
-  runApp(MaterialApp(home: LottieEx(),));h
-}
-
-class LottieAni extends StatelessWidget{
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(title: Text("lottie"),),
-      //body: Lottie.network("ttps://lottie.host/7e36e3fd-091c-452a-bfd9-a65dfa426c51/ebniiRRTtB.json"),
-        body: Lottie.net,
-    );
-  }
-
-}
+FARMERS.............UI
 
 
-GridView.builder(gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2), 
-   itemBuilder: (context,index){
-    return Card(
-      child: Column(
-        mainAxisSize: MainAxisSize.min,
-        children: products.map((products)=>null). Card(
-          
-        )tolist(),
-      ),
-    )
-   }),
+// import 'package:flutter/material.dart';
+// import 'package:google_fonts/google_fonts.dart';
+
+// void main() {
+//   runApp(MaterialApp(
+//     debugShowCheckedModeBanner: false,
+//     home: FarmerUi(),
+//   ));
+// }
+
+// class FarmerUi extends StatelessWidget {
+//   @override
+//   Widget build(BuildContext context) {
+//     return Scaffold(
+//         body: SafeArea(
+//             child: CustomScrollView(slivers: [
+//       SliverAppBar(
+//         floating: true,
+//         pinned: true,
+//         title: Text("FARMERS FRESH ZONE",style: GoogleFonts.kanit(color: Colors.white)),
+//         actions: [
+//           Icon(Icons.location_on),
+//           Text("KOCHI",style: GoogleFonts.kanit(color: Colors.white)),
+//           Icon(Icons.arrow_drop_down)
+//         ],
+//         backgroundColor: Colors.green,
+//         bottom: AppBar(
+//           backgroundColor: Colors.green,
+//           title: Container(
+//             width: double.infinity,
+//             height: 40,
+//             color: Colors.white,
+//             child: TextField(
+//               decoration: InputDecoration(
+//                 hintText: "search here",
+//                 prefixIcon: Icon(Icons.search),
+//               ),
+//             ),
+//           ),
+        
+//         ),
+        
+//       ),
+//        SliverGrid(
+//         delegate: SliverChildBuilderDelegate((context, index) => Card(
+//         child: Column(
+//           mainAxisSize: MainAxisSize.min,
+//           children: [
+//             Image(image: AssetImage("assets/images/watermelon.jpg"),),
+//            const Text(
+//             "Mango",
+//             style: TextStyle(fontSize: 18,fontWeight: FontWeight.bold),),
+
+//           ],
+//         ),
+//         ),childCount: 10),
+//          gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+
+//           crossAxisSpacing: 10,
+//           mainAxisSpacing: 10,
+//           crossAxisCount: 3)),
+//     ]))
+
+//     );
+//   }
+// }

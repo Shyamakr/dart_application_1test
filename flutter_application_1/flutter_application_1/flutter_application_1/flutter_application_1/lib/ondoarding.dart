@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/carousel1.dart';
+import 'package:flutter_application_1/screens/home.dart';
 import 'package:introduction_screen/introduction_screen.dart';
-import 'package:my_flutter_project/carouselEx.dart';
-import 'package:my_flutter_project/screens/home.dart';
 
 
 void main(){
@@ -46,7 +46,7 @@ class OnboardingEx extends StatelessWidget {
           //title: "Page 1",
           //body: "helloooo",
           //image: Image.asset("assets/icons/logo3.png")
-          titleWidget: Image.asset("assets/icons/logo3.png"),
+          titleWidget: Image.asset("assets/images/google.png"),
           body: "Order Food"
         ),
 
@@ -55,7 +55,7 @@ class OnboardingEx extends StatelessWidget {
             // title: "Page 2",
             // body: "helloooo",
             // image: Image.asset("assets/icons/logo1.png")
-            titleWidget: Image.asset("assets/icons/logo1.png"),
+            titleWidget: Image.asset("assets/images/delivery.png"),
             body: "Fast Delivery"
         ),
 
@@ -64,7 +64,7 @@ class OnboardingEx extends StatelessWidget {
             // title: "Page 3",
             // body: "helloooo",
             // image: Image.asset("assets/icons/logo2.png")
-            titleWidget: Image.asset("assets/icons/logo2.png"),
+            titleWidget: Image.asset("assets/images/good service.png"),
             body: "Good Service",
         )
       ],
@@ -77,7 +77,7 @@ class OnboardingEx extends StatelessWidget {
           .push(MaterialPageRoute(builder: (context)=> Home())),
 
       onSkip: ()=> Navigator.of(context)
-          .push(MaterialPageRoute(builder: (context)=> CarouseEx())),
+          .push(MaterialPageRoute(builder: (context)=> Carousel1())),
 
       dotsDecorator: DotsDecorator(
         size: Size(20, 20),

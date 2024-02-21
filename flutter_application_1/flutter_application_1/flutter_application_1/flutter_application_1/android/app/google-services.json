@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "510263503413",
+    "project_id": "noted-robot-413108",
+    "storage_bucket": "noted-robot-413108.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:510263503413:android:ee041c4c826c8a203d5f7c",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application_1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDr5qefYGcXt9a8oy67YRvPsSY0JaIHyn4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,5 +1,7 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+import 'package:flutter_custom_clippers/flutter_custom_clippers.dart';
 void main(){
   runApp(MaterialApp(home:ClippersEx() ,));
 }
@@ -30,7 +32,7 @@ class ClippersEx extends StatelessWidget{
         ),
         
         ClipPath(
-          clipper:Messageclipper(),
+          clipper:MessageClipper(),
           child: Container(
             color: Colors.amber,
             height: 200,

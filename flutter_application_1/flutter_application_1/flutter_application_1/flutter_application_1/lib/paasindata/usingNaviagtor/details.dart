@@ -35,8 +35,8 @@ class details extends StatelessWidget{
           color: Colors.indigo)),
 
              Text(
-     
-        style: TextStyle(
+              product['price'],
+            style: TextStyle(
           
           fontSize: 24,
           fontWeight: FontWeight.bold,
